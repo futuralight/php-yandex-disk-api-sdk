@@ -16,7 +16,7 @@ class Builder
     public function __construct($token)
     {
         $this->guzzle_client = new GuzzleClient();
-        $this->guzzle_client->setDefaultOption('headers/Authorization', 'OAuth ' . $token);
+        $this->guzzle_client->setDefaultOption('headers', ['Authorization' =>  'OAuth ' . $token]);
     }
 
     public function getRequest(string $method, array $params = null)
