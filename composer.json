@@ -3,10 +3,10 @@
     "description": "Yandex Disk API SDK",
     "type": "library",
     "minimum-stability": "dev",
-    "repositories": [
+    "authors": [
         {
-            "type": "git",
-            "url": "https://github.com/futuralight/php-yandex-disk-api-sdk"
+            "name": "futuralight",
+            "email": "futuralight@outlook.com"
         }
     ],
     "require": {
