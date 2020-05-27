@@ -1,0 +1,21 @@
+{
+    "name": "futuralight/php-yandex-disk-api-sdk",
+    "description": "Yandex Disk API SDK",
+    "type": "library",
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/futuralight/php-yandex-disk-api-sdk"
+        }
+    ],
+    "require": {
+        "php": "^7.1.0",
+        "guzzlehttp/guzzle": "^6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "YandexDisk\\": "src/"
+        }
+    }
+}
