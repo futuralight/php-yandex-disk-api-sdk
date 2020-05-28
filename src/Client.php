@@ -17,6 +17,7 @@ class Client
 
     public function getInfo()
     {
-        
+        $url = "";
+        return $this->builder->getRequest($url);
     }
 }
